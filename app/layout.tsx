@@ -9,6 +9,7 @@ import "./globals.css";
 //----------------COMPONENTS------------------------------->
 import Sidebar from "./components/sidebar/sidebar";
 import Header from "./components/header/header";
+import Controls from "./components/footer/controls";
 //----------------COMPONENTS------------------------------->
 
 
@@ -39,6 +40,7 @@ export default function RootLayout({
           <Header/>
           {children}
           <Sidebar/>
+          <Controls/>
         </ThemeProvider>
       </body>
     </html>
